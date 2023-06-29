@@ -1,6 +1,6 @@
 # Git management from terminal
 
-## Gene
+## Generic setup
 1. install git on pc
 2. create shh-keygen on pc
 3. upload to github profile
