@@ -48,3 +48,6 @@ git switch "name"
 
 ### aggiungere branch
 git push origin develop
+
+### Add the stuff in develop to the main branch (append not merging)
+git push origin develop:main
