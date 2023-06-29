@@ -1,2 +1,9 @@
 #FOLDER
-#your_folder/
+your_folder/
+
+#Files extension to discard
+*.asv
+*.bak
+*.rst
+
+.DS_Store
