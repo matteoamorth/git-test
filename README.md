@@ -16,13 +16,35 @@
 1. add folder: git add my_folder
 2. add all current folder: git add .
 
-## Remove file 
-1. git rm ./my_folder/file_tmp.txt
 
-## Conflict pushing files that already have been edited
+### Conflict pushing files that already have been edited
 Error sample:
  ! [rejected]        main -> main (fetch first)
 error: push di alcuni riferimenti su 'github.com:matteoamorth/git-test.git' non riuscito
 
 To force the commit:
 git push --force origin main
+
+## Remove file 
+1. git rm ./my_folder/file_tmp.txt
+
+## Pull files 
+
+git pull
+git pull --force
+Check changes: git fetch
+
+## Branches
+### current branch
+git branch
+
+### New branch
+Create (forced)
+git checkout -b develop
+
+### switch branch
+git checkout "name"
+git switch "name"
+
+### aggiungere branch
+git push origin develop
