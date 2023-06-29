@@ -1,7 +1,6 @@
 #FOLDER
 your_folder/
 
-#Files extension to discard
 *.asv
 *.bak
 *.rst
