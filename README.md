@@ -34,6 +34,8 @@ git push --force origin main
 ## Remove file 
 To remove file "file_tmp.txt" in "my_folder" <br>
 git rm ./my_folder/file_tmp.txt
+Remove all <br>
+git rm -r --cached .
 
 ## Pull files 
 
@@ -52,3 +54,17 @@ git checkout -b develop
 ### Switch branch
 git checkout "name"
 git switch "name"
+
+
+## Exclude folders from branch
+create file .gitignore
+
+Sample <br>
+#FOLDER
+your_folder/
+
+#Files extension to discard
+*.asv
+*.bak
+*.rst
+
