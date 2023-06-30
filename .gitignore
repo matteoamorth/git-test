@@ -1,2 +1,8 @@
 #FOLDER
-#your_folder/
+your_folder/
+
+*.asv
+*.bak
+*.rst
+
+.DS_Store
