@@ -60,11 +60,11 @@ git switch "name"
 create file .gitignore
 
 Sample <br>
-#FOLDER
+#FOLDER <br>
 your_folder/
 
-#Files extension to discard
-*.asv
-*.bak
-*.rst
+#Files extension to discard <br>
+*.asv<br>
+*.bak<br>
+*.rst<br>
 
