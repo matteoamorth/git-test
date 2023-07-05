@@ -44,7 +44,7 @@ git pull --force
 Check changes: git fetch
 
 ## Branches
-### Look current branch ancd branches list
+### Look current branch and branches list
 git branch
 
 ### New branch
