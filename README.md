@@ -39,20 +39,20 @@ git rm -r --cached .
 
 ## Pull files 
 
-git pull
-git pull --force
-Check changes: git fetch
+git pull <br>
+git pull --force <br>
+Check changes: git fetch <br>
 
 ## Branches
 ### Look current branch and branches list
 git branch
 
 ### New branch
-Create (forced)
+Create (forced) <br>
 git checkout -b develop
 
 ### Switch branch
-git checkout "name"
+git checkout "name" <br>
 git switch "name"
 
 
