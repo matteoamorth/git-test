@@ -24,10 +24,10 @@ git push origin develop
 git push origin develop:main
 ```
 
-### Push more stuff
+### Push only specific folders or files
 ```bash
 git add my_folder
-add only a file: git add README.md
+git add README.md
 ```
 
 ### Push files that already have been edited online
