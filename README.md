@@ -90,7 +90,7 @@ create file .gitignore
 your_folder/
 
 #File extensions to discard
-*.asv<br>
-*.bak<br>
-*.rst<br>
+*.asv
+*.bak
+*.rst
 ```
