@@ -8,63 +8,89 @@
 5. open folder in vscode and save changes
 
 ## Push files to origin
-1. git add .
-2. git commit -m "Some description of update" //describe the changes
-3. git push //add files to origin
+```bash
+git add . 
+git commit -m "Some description of update" //describe the changes 
+git push //add files to origin
+``` 
 
 ### Push specific branch
+```bash
 git push origin develop
+```
 
 ### Add files in a branch to the main
+```bash
 git push origin develop:main
+```
 
 ### Push more stuff
-1. add folder: git add my_folder
-2. add only a file: git add README.md
-
+```bash
+git add my_folder
+add only a file: git add README.md
+```
 
 ### Push files that already have been edited online
-Error sample: <br>
+```bash
+Error sample:
  ! [rejected]        main -> main (fetch first)
 error: push di alcuni riferimenti su 'github.com:matteoamorth/git-test.git' non riuscito
+```
 
 To force the commit:
+```bash
 git push --force origin main
+```
 
 ## Remove file 
-To remove file "file_tmp.txt" in "my_folder" <br>
+To remove file "file_tmp.txt" in "my_folder"
+```bash
 git rm ./my_folder/file_tmp.txt
-Remove all <br>
+```
+
+Remove all
+```bash
 git rm -r --cached .
+```
 
 ## Pull files 
+```bash
+git pull
+git pull --force
+```
 
-git pull <br>
-git pull --force <br>
-Check changes: git fetch <br>
+Check changes:
+```bash
+git fetch
+```
 
 ## Branches
 ### Look current branch and branches list
+```bash
 git branch
+```
 
 ### New branch
-Create (forced) <br>
+Create (forced)
+```bash
 git checkout -b develop
+```
 
 ### Switch branch
-git checkout "name" <br>
+```bash
+git checkout "name" 
 git switch "name"
-
+```
 
 ## Exclude folders from branch
-create file .gitignore
+create file .gitignore 
 
-Sample <br>
-#FOLDER <br>
+```gitignore
+#FOLDER
 your_folder/
 
-#Files extension to discard <br>
+#File extensions to discard
 *.asv<br>
 *.bak<br>
 *.rst<br>
-
+```
